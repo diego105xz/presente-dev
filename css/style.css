@@ -1,0 +1,202 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #d7d4ff;
+    box-sizing: border-box;
+    color: #2a2679;
+}
+
+.intro{
+    width: 400px;
+}
+
+.intro h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+.intro a{
+    background-color: #6c63ff;
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    display: block;
+    width: 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.intro a:hover{
+    background-color: #8f89f8;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    background-color: rgb(242, 240, 253);    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2a2679;
+}
+
+main h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+.colecao-card{
+    margin: 0 auto;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.card{
+    height: 400px;
+    background-color: #fff;
+    display: grid;
+    border: 4px solid #6c63ff;
+}
+
+.logo1{
+    height: 200px;
+    background-color: rgb(235, 165, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2{
+    height: 200px;
+    background-color: rgb(126, 154, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo3{
+    height: 200px;
+    background-color: rgb(253, 234, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo4{
+    height: 200px;
+    background-color: rgb(135, 196, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo5{
+    height: 200px;
+    background-color: rgb(241, 241, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo6{
+    height: 200px;
+    background-color: rgb(144, 120, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-curso{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.conteudo-card{
+    padding: 20px;
+}
+
+footer{
+    background-color: #d7d4ff;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #2a2679;;
+}
+
+footer h4{
+    font-size: 24px;
+}
+
+.formulario{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input{
+    margin: 5px 0px;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.area{
+    margin: 5px 0px;
+    border-radius: 5px;
+    border-color: transparent;
+    resize: none;
+}
+
+
+.formulario button{
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+
+.formulario button:hover{
+    background-color: #8f89f8;
+    cursor: pointer;
+}
+
+/* barra de rolagem */
+body::-webkit-scrollbar {
+    width: 12px;    /* largura do trilho do scroll */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #6c63ff;     /* trillho do scroll */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #d7d4ff;   /* cor do ponto do sroll */
+    border-radius: 20px;       /* arredondamento do ponto do scroll */
+    border: 3px solid #2a2679; /* cor da borda do ponto do sroll*/
+  }
